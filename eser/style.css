@@ -1,0 +1,49 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole generali blocco slider */
+.slider-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  height: 80vh;
+}
+
+/* regole del blocco imgs */
+.images {
+  width: 80%;
+}
+
+.images img {
+  width: 100%;
+  display: none;
+}
+
+.images img.active {
+  display: inline-block;
+}
+
+/* regole navigazione */
+.prev i, .next i{
+  font-size: 40px;
+	cursor: pointer;
+}
+
+.nav {
+  position: absolute;
+  bottom: 20px;
+  left: 47%;
+}
+
+.nav i{
+	cursor: pointer;
+}
+
+.nav i.active {
+  color: red;
+}
